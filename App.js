@@ -187,18 +187,6 @@ function chercher({ navigation }){
 }
 
 
-//Page Forgot password
-function forgot({ navigation }){
-	return(
-		<View style={styles.loginPage}>
-			<Text style={styles.textForgot}>Entrez votre adresse mail pour récuperer votre compte !</Text>
-			<TextInput style={styles.inputUser} placeholder="Adresse mail"/>
-			<Text style={styles.btnLogin} onPress={() => navigation.navigate('splash')}>CONFIRMER</Text>
-		</View>
-	)
-}
-
-
 //Page MainPage
 function main({navigation}){
 	return(
